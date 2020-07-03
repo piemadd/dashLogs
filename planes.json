@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Emirates",
+    "image": "https://i.imgur.com/qGCF1ej.png",
+    "planes": [
+      {
+        "spawncode": "777-300ER",
+        "name": "Boeing 777-300ER",
+        "livery": "1",
+        "image": "https://i.imgur.com/GyUXxxU.png"
+      },
+      {
+        "spawncode": "777-300ERF",
+        "name": "Boeing 777-300ERF",
+        "livery": "2",
+        "image": "https://i.imgur.com/GyUXxxU.png"
+      },
+      {
+        "spawncode": "A330-200",
+        "name": "Airbus A330-200",
+        "livery": "8",
+        "image": "https://i.imgur.com/GyUXxxU.png"
+      },
+      {
+        "spawncode": "A340-300",
+        "name": "Airbus A340-300",
+        "livery": "2",
+        "image": "https://i.imgur.com/GyUXxxU.png"
+      },
+      {
+        "spawncode": "A380-800",
+        "name": "Airbus A380-800",
+        "livery": "7, 8, 9",
+        "image": "https://i.imgur.com/GyUXxxU.png"
+      }
+    ]
+  }
+]
