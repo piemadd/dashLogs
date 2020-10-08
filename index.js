@@ -32,11 +32,11 @@ function embedGenLink(title, message, url, smallTitle) { //Creates a properly fo
 		.setColor('#ff2b41')
 		.setTitle(title)
 		.setURL(url)
-		.setAuthor(smallTitle, 'https://i.imgur.com/Ywtt073.png', url)
+		.setAuthor(smallTitle, 'https://i.imgur.com/nnvgK45.png', url)
 		.setDescription(message)
-		.setThumbnail('https://i.imgur.com/Ywtt073.png')
+		.setThumbnail('https://i.imgur.com/nnvgK45.png')
 		.setTimestamp()
-		.setFooter('© Oryp 2020', 'https://i.imgur.com/Ywtt073.png');
+		.setFooter('© Oryp 2020', 'https://i.imgur.com/nnvgK45.png');
 	return embed
 }
 
@@ -44,11 +44,11 @@ function embedGenNoLink(title, message, smallTitle) { //Creates a properly forma
 	const embed = new Discord.MessageEmbed()
 		.setColor('#ff2b41')
 		.setTitle(title)
-		.setAuthor(smallTitle, 'https://i.imgur.com/Ywtt073.png')
+		.setAuthor(smallTitle, 'https://i.imgur.com/nnvgK45.png')
 		.setDescription(message)
-		.setThumbnail('https://i.imgur.com/Ywtt073.png')
+		.setThumbnail('https://i.imgur.com/nnvgK45.png')
 		.setTimestamp()
-		.setFooter('© Oryp 2020', 'https://i.imgur.com/Ywtt073.png');
+		.setFooter('© Oryp 2020', 'https://i.imgur.com/nnvgK45.png');
 	return embed
 }
 
@@ -56,12 +56,12 @@ function embedGenImageNoLink(title, message, smallTitle, logo, image) { //Create
 	const embed = new Discord.MessageEmbed()
 		.setColor('#ff2b41')
 		.setTitle(title)
-		.setAuthor(smallTitle, 'https://i.imgur.com/Ywtt073.png')
+		.setAuthor(smallTitle, 'https://i.imgur.com/nnvgK45.png')
 		.setDescription(message)
 		.setThumbnail(logo)
 		.setImage(image)
 		.setTimestamp()
-		.setFooter('© Oryp 2020', 'https://i.imgur.com/Ywtt073.png');
+		.setFooter('© Oryp 2020', 'https://i.imgur.com/nnvgK45.png');
 	return embed
 }
 
@@ -91,13 +91,13 @@ client.on('message', msg => {
   if (msg.content.toLowerCase() === '%help') {
     const embed = new Discord.MessageEmbed()
 		.setColor('#ff2b41')
-		.setTitle('dashLogs Help Website')
+		.setTitle('pieBase Help Website')
 		.setURL('https://dl.piemadd.com/')
-		.setAuthor('dashLogs Help', 'https://i.imgur.com/Ywtt073.png', 'https://dl.piemadd.com/')
-		.setDescription('View the help page on the dashLogs website for more information.')
-		.setThumbnail('https://i.imgur.com/Ywtt073.png')
+		.setAuthor('pieBase Help', 'https://i.imgur.com/nnvgK45.png', 'https://dl.piemadd.com/')
+		.setDescription('View the help page on the pieBase website for more information.')
+		.setThumbnail('https://i.imgur.com/nnvgK45.png')
 		.setTimestamp()
-		.setFooter('© Oryp 2020', 'https://i.imgur.com/Ywtt073.png');
+		.setFooter('© Oryp 2020', 'https://i.imgur.com/nnvgK45.png');
 	msg.channel.send(embed);
   }
 });
@@ -235,7 +235,7 @@ client.on('message', msg => {
 client.on('message', msg => {
 	kontent = msg.content
 	kontent = kontent.toLowerCase()
-  if (kontent === 'dashlogs sucks') {
+  if (kontent === 'piebase sucks') {
     msg.reply('yeah, we know');
   }
 });
